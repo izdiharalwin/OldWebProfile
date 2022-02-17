@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+	font-weight: bold;
+}
+.navbar{
+	position: fixed;
+	display: inline-flex;
+	background: darkgreen;
+	width: 100%;
+	color: yellow;
+}
+.navbar .logo{
+	margin: 15px;
+}
+.navbar .logo h1{
+	font-size: 30px;
+}
+.navbar .item{
+	display: flex;
+	width: 60%;
+	left: 65%;
+	justify-content: right;
+	align-items: center;
+}
+.navbar .item li{
+	display: inline-flex;
+	margin: 15px;
+	padding: 10px;
+}
+.navbar .item li a{
+	font-size: 20px;
+	color: white;
+}
+.navbar .item li a:hover{
+	color: deepskyblue;
+	transition: 0.4s;
+	text-decoration: 2px underline;
+}
+.homepage {
+	margin: 10%;
+	margin-top: 255px;
+	display: inline-flex;
+}
+.homepage .homepic img{
+    margin-top: -30px;
+    height: 300px;
+    width: 300px;
+}
+.homepage .text h1{
+	font-size: 60px;
+	color: dodgerblue;
+}
+.homepage .text button{
+	margin: 20px;
+	width: 200px;
+    height: 30px;
+    background: deepskyblue;
+    color: white;
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.homepage .text button:hover{
+	background: white;
+	color: deepskyblue;
+}
+.hobby{
+	display: inline-flex;
+}
+.hobby .picthobby img{
+	margin: 20%;
+	height: 300px;
+	width: 300px;
+}
+.hobby .texthobby{
+	margin: 120px;
+}
+.hobby .texthobby h1{
+	font-size: 30px;
+	color: dodgerblue;
+	font-family: cursive;
+}
+.hobby .texthobby p{
+	font-size: 20px;
+	color: black;
+	font-family: cursive;
+}

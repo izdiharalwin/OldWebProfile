@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+	font-weight: bold;
+}
+.navbar{
+	position: fixed;
+	display: inline-flex;
+	background: darkgreen;
+	width: 100%;
+	color: yellow;
+}
+.navbar .logo{
+	margin: 15px;
+}
+.navbar .logo h1{
+	font-size: 30px;
+}
+.navbar .item{
+	display: flex;
+	width: 60%;
+	left: 65%;
+	justify-content: right;
+	align-items: center;
+}
+.navbar .item li{
+	display: inline-flex;
+	margin: 15px;
+	padding: 10px;
+}
+.navbar .item li a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+.navbar .item li a:hover{
+	color: black;
+	transition: 0.4s;
+	text-decoration: 2px underline;
+}
+.profilepage .profilepic{
+	text-align: center;
+}
+.profilepage .profilepic img{
+	margin-top: 50px;
+	height: 300px;
+	width: 300px;
+}
+.profilepage .text{
+	text-align: center;
+}
+.profilepage .text h1{
+	display: inline-flex;
+	margin-top: 200px;
+	color: dodgerblue;
+	font-size: 60px;
+}
+.profilepage .tabelbio{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.profilepage .tabelbio td{
+	font-size: 20px;
+	font-family: cursive;
+}
+.profilepage .pendidikan{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.profilepage .pendidikan td{
+	font-size: 20px;
+	font-family: cursive;
+}
